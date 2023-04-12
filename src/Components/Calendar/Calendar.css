@@ -1,0 +1,20 @@
+.App .date_contain {
+  z-index: 3;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  /* background-color: antiquewhite; */
+  width: fit-content;
+  height: fit-content;
+}
+.App .date_contain .day {
+  font-size: 3.5rem;
+}
+.App .date_contain .date {
+  font-size: 1.5rem;
+}
+.App .date_contain .time {
+  font-size: 3rem;
+}

@@ -1,0 +1,16 @@
+.link_card {
+  border: 1px solid gainsboro;
+  display: flex;
+  margin: 5px 5px 0px 5px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5px;
+  border-radius: 5px;
+  background-color: white;
+}
+.link_card .card_grabber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}

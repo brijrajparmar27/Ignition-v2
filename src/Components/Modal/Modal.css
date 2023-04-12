@@ -1,0 +1,63 @@
+.App .modal {
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(240, 248, 255, 0.216);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+.App .modal .modal_card {
+  display: flex;
+  height: 50vh;
+  width: 50vw;
+  background-color: white;
+  border-radius: 10px;
+}
+.App .modal .modal_card .sequence {
+  background-color: rgba(220, 220, 220, 0.681);
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  flex: 1.5;
+}
+.App .modal .modal_card .add_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 2;
+  padding: 30px;
+}
+.App .modal .modal_card .add_form .form_input {
+  border: none;
+  outline: none;
+  padding: 2px 5px;
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.App .modal .modal_card .add_form .thumb_viewer {
+  height: 50px;
+  width: auto;
+  margin-top: -50px;
+  margin-bottom: 40px;
+}
+
+.App .modal .modal_card .add_form .tb {
+  background-color: aliceblue;
+  border: 1px solid gainsboro;
+}
+
+.App .modal .modal_card .add_form .btn {
+  height: 35px;
+  background-color: rgb(84, 84, 255);
+  color: white;
+}
