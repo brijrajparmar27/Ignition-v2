@@ -15,15 +15,15 @@ function App() {
     <div className="App">
       <Background />
 
+      <Suspense fallback={<div />}>
+        <Shortcuts showModal={showModal} />
+      </Suspense>
+
       {modal && (
         <Suspense fallback={<div />}>
           <Modal showModal={showModal} />
         </Suspense>
       )}
-
-      <Suspense fallback={<div />}>
-        <Shortcuts showModal={showModal} />
-      </Suspense>
 
       <Suspense fallback={<div />}>
         <Date />
